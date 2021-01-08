@@ -1,0 +1,137 @@
+@media only screen and (max-width: 1200px){
+    .testimonials .team .card{
+        width: 18rem;
+      
+    }
+    .features .numbers .rect{
+        width: 13rem;
+        height: 10rem;
+        padding-top: 2.5vmin;
+    }
+    .features .numbers .rect h1{
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    header .navbar-brand{
+        padding-left: 1rem;
+    }
+    header .nav-item {
+        padding-bottom: 1.5rem;
+    }
+    header .nav-item .nav-link{
+        font-size: 1rem;
+    } 
+    .testimonials .team .card{
+        width: 14rem;
+    }
+    .testimonials .team .card .card-body a{
+        font-size: 1em;
+    }
+    .testimonials .team .card .card-body .card-title{
+        font-size: 1.2rem;
+    }
+    .testimonials .team .card .card-body .card-text{
+        font-size: 0.9rem;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 768px){
+    header .navbar-brand{
+        padding-left: 1rem;
+    }
+    header .nav-item {
+      padding-bottom: 1rem;
+    }
+    header .nav-item .nav-link{
+        font-size: 0.8rem;
+    }
+    header .row img{
+        margin-top: 10rem;
+        width: 100%;
+    }
+    .about .row .col-md-6 .panel{
+        position: initial;
+        width: initial;
+        height: initial;
+    }
+    .features .cover{
+        background-position: -40vmin -25vmin;
+    }
+    .features .numbers .rect{
+        width: 10rem;
+        height: 8rem;
+    }
+    .features .numbers .rect h1{
+        font-size: 2rem;
+    }
+    .visit{
+        height: inherit;
+        padding: 10vmin !important;
+    }
+    .visit .row h1{
+        padding: 6vmin 4vmin;
+    }
+    .visit .row .col-md-6{
+        text-align: center !important;
+    }
+    .visit .desktop i,
+    .visit .mobile i{
+       font-size: 8vmin;
+    }
+
+    .testimonials .team{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .testimonials .team .card{
+        margin-bottom: 2rem;
+    }
+
+
+    footer .col-md-5{
+        padding-bottom: 2rem;
+    }
+    .copy p{
+        font-size: 0.7rem;
+    }
+        
+    }
+
+
+    @media only screen and (max-width: 420px){
+        .about h1{
+            font-size: 1.5rem;
+        }
+        .purchase h1{
+            font-size: 1.5rem;
+        }
+        .purchase .card .card-body h5{
+            font-size:1.5rem;
+        }    
+      
+        .testimonials .team .card{
+            width: 18rem;
+        }
+    }
+    @media only screen and (max-width: 360px){
+        .testimonials .team .card{
+            width: 15rem;
+        }
+        .features .numbers .rect{
+            width: 8rem;
+            height: 6rem;
+        }
+        .features .numbers .rect h1{
+            font-size: 1.5rem;
+        }
+        .purchase h1{
+            font-size: 1.4rem;
+        }
+    }
